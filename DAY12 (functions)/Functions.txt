@@ -1,0 +1,6 @@
+Functions
+Functions are reusable code block designed for particular task.
+Functions are executed when they are called or invoked functions.
+functions are fundamental in all programming languages.
+
+Functions are executed when they are called or invoked functions you call a function by adding paranthesis to its name:name()

@@ -1,0 +1,1 @@
+//Print the sum of each number with its index
