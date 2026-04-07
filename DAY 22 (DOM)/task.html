@@ -1,0 +1,124 @@
+<!--1.	Change Text Content
+	•	Create a paragraph with text “Hello World”.
+	•	Add a button — when clicked, it changes the text to “Welcome to DOM!”
+	2.	Change Background Color
+	•	Add a button that changes the page background color to yellow when clicked.
+	3.	Input and Output
+	•	Create an input box and a button.
+	•	When the button is clicked, display the input text below it.
+	4.	Hide and Show
+	•	Create a paragraph and two buttons — one hides the paragraph and the other shows it.
+	5.	Change Image
+	•	Display an image.
+	•	Add two buttons: one changes it to another image, and the second brings the first one back.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Tasks</title>
+</head>
+<body>
+
+    <!-- 
+    1. Change Text Content
+    • Create a paragraph with text “Hello World”.
+    • Add a button — when clicked, it changes the text to “Welcome to DOM!”
+    -->
+    <p id="p1">Hello World</p>
+    <button onclick="changeParagraph()">Change Text</button>
+
+
+    <!-- 
+    2. Change Background Color
+    • Add a button that changes the page background color to yellow when clicked.
+    -->
+    <button onclick="changebg()">Change Background</button>
+
+
+    <!-- 
+    3. Input and Output
+    • Create an input box and a button.
+    • When the button is clicked, display the input text below it.
+    -->
+    <input type="text" id="inp" placeholder="Enter something">
+    <button onclick="getdata()">Show Input</button>
+    <h1 id="output"></h1>
+
+
+    <!-- 
+    4. Hide and Show
+    • Create a paragraph and two buttons — one hides the paragraph and the other shows it.
+    -->
+    <p id="p2">This is a paragraph</p>
+    <button onclick="hidepara()">Hide</button>
+    <button onclick="showpara()">Show</button>
+
+
+    <!-- 
+    5. Change Image
+    • Display an image.
+    • Add two buttons: one changes it to another image, and the second brings the first one back.
+    -->
+    <img id="img" src="https://via.placeholder.com/150" alt="image">
+    <br>
+    <button onclick="changeImg()">Change Image</button>
+    <button onclick="resetImg()">Reset Image</button>
+
+
+<script>
+
+// 1. Change text
+function changeParagraph(){
+    document.getElementById("p1").innerText = "Welcome to DOM!"
+}
+
+
+// 2. Change background
+function changebg(){
+    document.body.style.backgroundColor = "yellow"
+}
+
+
+// 3. Input and output
+function getdata(){
+    let value = document.getElementById('inp').value
+    document.getElementById('output').innerText = value
+}
+
+
+// 4. Hide and show
+function hidepara(){
+    document.getElementById("p2").style.display = "none"
+}
+
+function showpara(){
+    document.getElementById("p2").style.display = "block"
+}
+
+
+// 5. Change image
+function changeImg(){
+    document.getElementById("img").src = "https://via.placeholder.com/200"
+}
+
+function resetImg(){
+    document.getElementById("img").src = "https://via.placeholder.com/150"
+}
+
+
+// NOTES:
+
+// 1. getElementById() is used to select elements.
+// 2. innerText is used to change content.
+// 3. style property is used to modify CSS.
+// 4. display = "none" hides element, "block" shows it.
+// 5. value is used to get input field data.
+// 6. src is used to change image source.
+// 7. Events like onclick trigger functions.
+
+</script>
+
+</body>
+</html>

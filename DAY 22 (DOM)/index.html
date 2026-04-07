@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Practice</title>
+</head>
+<body>
+
+    <!-- Change heading text -->
+    <h1>HELLO WORLD</h1>
+    <button onclick="changeContent()">click to change the heading</button>
+
+    <!-- Change paragraph text -->
+    <p id="p1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit...
+    </p>
+    <button onclick="changeParagraph()">click to change the paragraph</button>
+
+    <!-- Change style using class -->
+    <h3 class="h3">hi</h3>
+    <button onclick="changeH3()">click to change h3</button>
+
+<script>
+
+// change h1 content
+function changeContent(){
+    document.getElementsByTagName("h1")[0].innerText = "Hello Luminar"
+}
+
+// change paragraph content
+function changeParagraph(){
+    document.getElementById("p1").innerText = "hello everyone"
+}
+
+// change h3 background
+function changeH3(){
+    document.getElementsByClassName("h3")[0].style.background = "red"
+}
+
+
+// NOTES:
+
+// 1. getElementsByTagName() → returns collection (use index).
+// 2. getElementById() → selects element using id.
+// 3. getElementsByClassName() → returns collection (use index).
+// 4. innerText → used to change text.
+// 5. style.property → used to change CSS.
+// 6. DOM methods are used to access and modify HTML elements.
+
+</script>
+
+</body>
+</html>

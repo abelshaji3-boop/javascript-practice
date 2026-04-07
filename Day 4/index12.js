@@ -6,11 +6,11 @@ if(num > 0){
     console.log("Positive");
     if(num%2==0){
         console.log("even");
-    else{
+    
+        }else{
             console.log("odd")
         }
     }
-}
 else if(num < 0){
     console.log("negative");
 }

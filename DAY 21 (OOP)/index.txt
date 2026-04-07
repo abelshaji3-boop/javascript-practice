@@ -1,0 +1,60 @@
+//oop()
+
+// oop is a programing pardigm that emphasizes the use of objects to organize and structure code
+// java script beign a versatile and popular programing language supports oop principles through its object oriented features
+// oop is a programing paradigm based on the concepts of "objects"
+
+//  OBJECTS 
+
+//  an object based is a self contained unit that encapsulates data and behaviors
+// it promotes the reusability,maintainability,and modularity of code
+
+// CLASS
+
+// class is a blueprint from which we can create new object based on the rules described in the class
+
+// ABSTRACTION
+
+//  Abstraction involves simplifying complex systems by breaking them down into smaller, manageable parts. In OOP, abstraction is achieved by defining class with only the essential attributes and methods, hiding unnecessary details from the outside world A
+
+//  Encapsulation is the concept of bundling data and methods together within a class, hiding the internal implementation details from the outside world. This way, the class exposes only necessary methods to interact with its data, providing data protection and reducing the risk of unintentional modification. 
+
+//  Inheritance allows a class (called a subclass or child class) to inherit properties and methods from another class (called a superclass or parent class).
+//It promotes code reusability and allows us to create more specialized classes without duplicating code. In JavaScript,
+//inheritance is achieved using the extends keyword.
+
+// Polymorphism allows objects of different classes to be treated as objects of a common superclass.
+// It enables the same method name to behave differently based on the object type. 
+// JavaScript, being a dynamically-typed language, naturally supports polymorphism. You can inyoke the same method on different objects, and the appropriate implementation will be executed based on the object's type.
+
+// what is this keyword in js
+
+//In JavaScript, the this keyword refers to an object.
+//Which object depends on how this is being invoked (used or called),.
+//The this keyword refers to different objects depending on how it is used:
+//In an object method, this refers to the object.
+//Alone, this refers to the global object.
+//In a function, this refers to the global object.
+//In a function, in strict mode, this is undefined.
+
+
+// DOM (Document Object Model)
+
+// 1. DOM represents HTML as a tree structure of objects (nodes).
+
+// 2. It allows JavaScript to access and modify web page content dynamically.
+
+// 3. Each HTML element is treated as an object.
+
+// 4. Elements can be accessed using:
+//    document.getElementById()
+//    document.querySelector()
+//    document.getElementsByClassName()
+
+// 5. Content can be changed using:
+//    innerText, innerHTML
+
+// 6. Styles can be modified using:
+//    element.style.property
+
+// 7. Events (click

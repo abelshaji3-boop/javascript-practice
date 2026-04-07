@@ -1,4 +1,4 @@
-//w.a.p to accept the number and according to that number print taht day.
+//w.a.p to accept the number and according to that number print that day.
 
 let day = 5
 

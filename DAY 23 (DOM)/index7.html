@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- elements with different selectors -->
+    <h1 id="head1">hello</h1>
+    <h2>hey</h2>
+    <h3 class="head3">welcome</h3>
+
+    <!-- same class used for multiple elements -->
+    <p class="head3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit...
+    </p>
+
+</body>
+
+<script>
+
+// selecting all elements with class "head3"
+console.log(document.querySelectorAll(".head3"))
+
+
+// NOTES:
+
+// 1. querySelectorAll() → selects all matching elements.
+// 2. Returns NodeList (similar to array).
+// 3. ".head3" → selects elements by class.
+// 4. Here it selects both h3 and p elements.
+// 5. Can use index like [0], [1] to access.
+// 6. Unlike getElementsByClassName, it supports CSS selectors.
+
+</script>
+
+</html>

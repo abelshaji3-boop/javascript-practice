@@ -1,0 +1,71 @@
+// DOM METHODS 
+
+// 1. document.getElementById()
+// → selects a single element using id
+
+// 2. document.getElementsByClassName()
+// → selects elements by class name (returns HTMLCollection)
+
+// 3. document.getElementsByTagName()
+// → selects elements by tag name (returns HTMLCollection)
+
+// 4. document.querySelector()
+// → selects first matching element (CSS selector)
+
+// 5. document.querySelectorAll()
+// → selects all matching elements (returns NodeList)
+
+// 6. element.innerText
+// → used to get/set text content
+
+// 7. element.innerHTML
+// → used to get/set HTML content
+
+// 8. element.style.property
+// → used to change CSS styles
+
+// 9. element.value
+// → used to get/set input value
+
+// 10. element.setAttribute()
+// → sets attribute value
+
+// 11. element.getAttribute()
+// → gets attribute value
+
+// 12. document.createElement()
+// → creates new HTML element
+
+// 13. element.appendChild()
+// → adds element inside another
+
+// 14. element.remove()
+// → removes element from DOM
+
+// 15. element.addEventListener()
+// → adds event like click, input
+
+// 16. element.onclick
+// → assigns click event
+
+// 17. document.body
+// → represents body element
+
+// 18. element.classList.add()
+// → adds class
+
+// 19. element.classList.remove()
+// → removes class
+
+// 20. element.classList.toggle()
+// → adds/removes class automatically
+
+
+// NOTES:
+
+// 1. DOM methods are used to access and modify HTML.
+// 2. Some methods return single element, some return collections.
+// 3. querySelector uses CSS selectors (#, ., tag).
+// 4. innerText → text only, innerHTML → supports HTML tags.
+// 5. Events are used for user interaction.
+// 6. DOM enables dynamic webpage updates.
